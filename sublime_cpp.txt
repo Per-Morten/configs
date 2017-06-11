@@ -1,0 +1,19 @@
+{
+    "extensions":
+    [
+        "c",
+        "cc",
+        "cxx",
+        "c++",
+        "hpp",
+        "hxx",
+        "h++",
+        "inl",
+        "tpp",
+        "ipp",
+        "h",
+        "cpp"
+    ],
+    "spell_check": true,
+    "match_brackets_angle": true,
+}
