@@ -1,0 +1,8 @@
+// These settings override both User and Default settings for the Markdown syntax
+{
+    "trim_trailing_white_space_on_save": false,
+    "spell_check": true,
+    "draw_white_space": "all",
+    "auto_complete": true,
+    "word_wrap": true,
+}
