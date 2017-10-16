@@ -2,7 +2,7 @@
     "auto_complete_commit_on_tab": true,
     "auto_complete_delay": 0,
     "close_windows_when_empty": false,
-    "color_scheme": "Packages/Agila Theme/Agila Cobalt.tmTheme",
+    "color_scheme": "Packages/Colorsublime - Themes/ILMShell.tmTheme",
     "detect_indentation": false,
     "draw_centered": false,
     "ensure_newline_at_eof_on_save": true,
@@ -52,10 +52,15 @@
         ".hg",
         "CVS",
         ".vs",
-        "*.vscode"
+        "*.vscode",
+        "build",
+        "doc"
     ],
     "font_face": "Anonymous Pro",
-    "font_size": 15,
+    "font_options":
+    [
+    ],
+    "font_size": 17,
     "highlight_line": true,
     "hot_exit": false,
     "ignored_packages":
@@ -72,7 +77,7 @@
     "shift_tab_unindent": true,
     "smart_indent": true,
     "tab_completion": false,
-    "theme": "Agila Cobalt.sublime-theme",
+    "theme": "Agila.sublime-theme",
     "theme_agila_compact_tab": true,
     "theme_agila_horizontal_scrollbar_thickest": true,
     "theme_agila_sidebar_heading_lightblue": true,
