@@ -149,3 +149,11 @@ open_current_folder()
 {
     nautilus $(pwd) > /dev/null 2>&1;
 }
+
+fix_mouse_click()
+{
+    unity;
+}
+ 
+export TERM=screen-256color
+
