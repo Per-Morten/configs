@@ -1,0 +1,159 @@
+// The MIT License (MIT) Copyright (c) 2012 John-Paul Bader
+// - http://color.smyck.org/
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy of
+// this software and associated documentation files (the "Software"), to deal in
+// the Software without restriction, including without limitation the rights to
+// use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+// the Software, and to permit persons to whom the Software is furnished to do so,
+// subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+// FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+// COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+// IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+// CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+// Adapted by Per-Morten Straume:
+// Changes:
+// - Changed from .tmTheme file to sublime-color-scheme file.
+// - Changed from yellow to red text for strings.
+// - Added red color to operators
+// - Removed Erlang related fields
+// - Name changes to a lot of the different fields.
+// Personal sublime theme.
+{
+    "name": "Personal Scheme",
+    "globals":
+    {
+        "background": "#1B1B1B",
+        "caret": "#F43753",
+        "foreground": "#F8F8F8",
+        "invisibles": "#CAE2FB3D",
+        "line_highlight": "#FFFFFF1A",
+        "selection": "#1FB6DC63",
+    },
+    "rules":
+    [
+        // Comment
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "font_style": "italic",
+            "foreground": "#939393"
+        },
+        {
+            "name": "Documentation",
+            "scope": "comment.block.documentation",
+            "font_style": "italic",
+            "foreground": "#FFFFFFFF"
+        },
+
+        // Strings
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "#F43753",
+        },
+
+        // Constants
+        {
+            "name": "Constant",
+            "scope": "constant",
+            "foreground": "#EBEBEB",
+        },
+        {
+            "name": "Constant Other",
+            "scope": "constant.other",
+            "foreground": "#F8B3AE",
+        },
+        {
+            "name": "Constants Numeric",
+            "scope": "constant.numeric",
+            "foreground": "#F6DD6A",
+        },
+        {
+            "name": "Constants Language",
+            "scope": "constant.language",
+            "foreground": "#7BD3F8",
+        },
+
+        // Keywords
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "#AFEE7F",
+        },
+        {
+            "name": "Keyword Operator",
+            "scope": "keyword.operator",
+            "foreground": "#F43753",
+        },
+
+         // Entity
+        {
+            "name": "Entity",
+            "scope": "entity",
+            "foreground": "#A5EAFC",
+        },
+        {
+            "name": "Entity Label",
+            "scope": "entity.name.label",
+            "foreground": "#F66253",
+        },
+        {
+            "name": "Entity Constant",
+            "scope": "entity.name.constant",
+            "foreground": "#FFF3E6",
+        },
+
+        // Variable
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "#A5EAFC",
+        },
+        {
+            "name": "Variable Parameter",
+            "scope": "variable.parameter",
+            "foreground": "#A5EAFC",
+        },
+        {
+            "name": "Variable Function",
+            "scope": "variable.function",
+            "foreground": "#A5EAFC",
+        },
+        {
+            "name": "Variable Parameter",
+            "scope": "variable.other.member",
+            "foreground": "#A5EAFC",
+        },
+
+
+        // Storage
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "#AFEE7F",
+        },
+
+        // Support
+        {
+            "name": "Support",
+            "scope": "support",
+            "foreground": "#A5EAFC",
+        },
+
+        // Invalids
+        {
+            "name": "Invalid – Deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "#FD5FF1",
+            "font_style": ["italic", "underline"],
+        },
+    ]
+}
