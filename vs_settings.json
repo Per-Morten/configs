@@ -1,0 +1,290 @@
+{
+    "bracketPairColorizer.consecutivePairColors": [
+        ["<", ">"],
+        ["[", "]"],
+        ["{", "}"],
+        ["(", ")"],
+        [
+            "gold",
+            "darkorange",
+            "orchid",
+            "darkorchid",
+            //"dodgerblue",
+            //"cornflowerblue",
+        ],
+        "Red"
+    ],
+
+    "bracketPairColorizer.independentPairColors": [
+        [
+            "()",
+            [
+                "gold",
+                "darkorange",
+                "goldenrod",
+                "orchid",
+                "darkorchid",
+            ],
+            "Red"
+        ],
+        [
+            "[]",
+            [
+                "gold",
+                "darkorange",
+                "goldenrod",
+                "orchid",
+                "darkorchid",
+            ],
+            "Red"
+        ],
+        [
+            "{}",
+            [
+                "gold",
+                "darkorange",
+                "goldenrod",
+                "orchid",
+                "darkorchid",
+            ],
+            "Red"
+        ],
+        [
+            "<>",
+            [
+                "gold",
+                "darkorange",
+                "goldenrod",
+                "orchid",
+                "darkorchid",
+            ],
+            "Red"
+        ]
+    ],
+    "bracketPairColorizer.forceUniqueOpeningColor": false,
+    "bracketPairColorizer.colorMode":"Independent",
+
+    "breadcrumbs.enabled": true,
+    "workbench.colorCustomizations": {
+        "editor.background": "#262626",
+        "editor.foreground": "#F8F8F8",
+        "editorCursor.foreground": "#F43753",
+        "editor.selectionBackground": "#1FB6DC63",
+        "editor.lineHighlightBackground": "#FFFFFF1A"
+    },
+
+    "editor.fontFamily": "'Anonymous Pro', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 22,
+    "keyboard.dispatch": "keyCode",
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            // Comment
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#939393",
+                    "fontStyle": "italic"
+                },
+            },
+            {
+                "scope": "comment.block.documentation",
+                "settings": {
+                    "foreground": "#FFFFFF",
+                    "fontStyle": "italic"
+                },
+            },
+
+            // Strings
+            {
+                "scope": "string",
+                "settings": {
+                    "foreground": "#F43753"
+                },
+            },
+
+            // Constants
+            {
+                "scope": "constant",
+                "settings": {
+                    "foreground": "#EBEBEB"
+                },
+            },
+            {
+                "scope": "constant.other",
+                "settings": {
+                    "foreground": "#F8B3AE"
+                },
+            },
+            {
+                "scope": "constant.numeric",
+                "settings": {
+                    "foreground": "#F6DD6A"
+                },
+            },
+            {
+                "scope": "constant.language",
+                "settings": {
+                    "foreground": "#7BD3F8"
+                },
+            },
+
+            // Keywords
+            {
+                "scope": "keyword.control",
+                "settings": {
+                    "foreground": "#AFEE7F"
+                },
+            },
+
+            {
+                "scope": "keyword.other",
+                "settings": {
+                    "foreground": "#AFEE7F"
+                },
+            },
+
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#F43753"
+                },
+            },
+
+             // Entity
+            {
+                "scope": "entity",
+                "settings": {
+                    "foreground": "#A5EAFC"
+                },
+            },
+            {
+                "scope": "entity.name.label",
+                "settings": {
+                    "foreground": "#F66253"
+                },
+            },
+            {
+                "scope": "entity.name.constant",
+                "settings": {
+                    "foreground": "#ffe6e6"
+                },
+            },
+
+            // Variable
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#A5EAFC"
+                },
+            },
+
+            {
+                "scope": "variable.other",
+                "settings": {
+                    "foreground": "#A5EAFC"
+                },
+            },
+
+            {
+                "scope": "variable.language",
+                "settings": {
+                    "foreground": "#A5EAFC"
+                },
+            },
+
+            {
+                "scope": "variable.parameter",
+                "settings": {
+                    "foreground": "#A5EAFC"
+                },
+            },
+
+            {
+                "scope": "variable.function",
+                "settings": {
+                    "foreground": "#A5EAFC"
+                },
+            },
+
+            {
+                "scope": "variable.other.member",
+                "settings": {
+                    "foreground":"#A5EAFC"
+                }
+            },
+
+
+            // Storage
+            {
+                "scope": "storage",
+                "settings": {
+                    "foreground":"#AFEE7F"
+                }
+            },
+
+            {
+                "scope": "storage.type",
+                "settings": {
+                    "foreground":"#AFEE7F"
+                }
+            },
+
+
+            {
+                "scope": "storage.modifier",
+                "settings": {
+                    "foreground":"#AFEE7F"
+                }
+            },
+
+            // Support
+            {
+                "scope": "support",
+                "settings": {
+                    "foreground":"#AFEE7F"
+                }
+            },
+
+            // Invalids
+            {
+                "scope": "invalid.deprecated",
+                "settings": {
+                    "foreground":"#FD5FF1",
+                    "fontStyle": "italic underline"
+                },
+            },
+        ],
+        //"comments": "#939393",
+        //"strings": "#F43753",
+        //"numbers": "#F6DD6A",
+        //"keywords": "#AFEE7F",
+        //"variables": "#A5EAFC",
+        //"functions": "#F8B3AE"
+    },
+    "editor.mouseWheelZoom": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.quickSuggestionsDelay": 0,
+    "window.closeWhenEmpty": false,
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "editor.showFoldingControls": "always",
+    "files.hotExit": "off",
+    "editor.tabCompletion": "on",
+    "files.trimTrailingWhitespace": true,
+    "editor.wordWrap": "off",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "window.zoomLevel": 1,
+    "editor.hover.delay": 200,
+    "C_Cpp.default.cppStandard": "c++17",
+    "zenMode.centerLayout": false,
+    "C_Cpp.default.intelliSenseMode": "clang-x64",
+    "C_Cpp.default.cStandard": "c11",
+    "editor.suggest.localityBonus": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.inlineValues": true,
+    "debug.openExplorerOnEnd": true,
+    "editor.acceptSuggestionOnCommitCharacter": false
+}
