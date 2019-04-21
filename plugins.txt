@@ -1,0 +1,3 @@
+coenraads.bracket-pair-colorizer
+johnpapa.vscode-peacock
+jpotterm.simple-vim
