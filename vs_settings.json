@@ -1,78 +1,20 @@
-{
-    "bracketPairColorizer.consecutivePairColors": [
-        ["<", ">"],
-        ["[", "]"],
-        ["{", "}"],
-        ["(", ")"],
-        [
-            "gold",
-            "darkorange",
-            "orchid",
-            "darkorchid",
-            //"dodgerblue",
-            //"cornflowerblue",
-        ],
-        "Red"
-    ],
 
-    "bracketPairColorizer.independentPairColors": [
-        [
-            "()",
-            [
-                "gold",
-                "darkorange",
-                "goldenrod",
-                "orchid",
-                "darkorchid",
-            ],
-            "Red"
-        ],
-        [
-            "[]",
-            [
-                "gold",
-                "darkorange",
-                "goldenrod",
-                "orchid",
-                "darkorchid",
-            ],
-            "Red"
-        ],
-        [
-            "{}",
-            [
-                "gold",
-                "darkorange",
-                "goldenrod",
-                "orchid",
-                "darkorchid",
-            ],
-            "Red"
-        ],
-        [
-            "<>",
-            [
-                "gold",
-                "darkorange",
-                "goldenrod",
-                "orchid",
-                "darkorchid",
-            ],
-            "Red"
-        ]
+{
+    "bracket-pair-colorizer-2.colorMode": "Independent",
+    "bracket-pair-colorizer-2.forceIterationColorCycle": false,
+    "bracket-pair-colorizer-2.forceUniqueOpeningColor": false,
+    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "bracket-pair-colorizer-2.showHorizontalScopeLine": true,
+    "bracket-pair-colorizer-2.showVerticalScopeLine": true,
+    "bracket-pair-colorizer-2.colors": [
+        "darkorange",
+        "gold",
+        "goldenrod",
+        "orchid",
+        "darkorchid",
     ],
-    "bracketPairColorizer.forceUniqueOpeningColor": false,
-    "bracketPairColorizer.colorMode":"Independent",
 
     "breadcrumbs.enabled": true,
-    "workbench.colorCustomizations": {
-        "editor.background": "#262626",
-        "editor.foreground": "#F8F8F8",
-        "editorCursor.foreground": "#F43753",
-        "editor.selectionBackground": "#1FB6DC63",
-        "editor.lineHighlightBackground": "#FFFFFF1A"
-    },
-
     "editor.fontFamily": "'Anonymous Pro', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontSize": 22,
     "keyboard.dispatch": "keyCode",
@@ -351,7 +293,7 @@
     "peacock.affectStatusBar": true,
     "C_Cpp.updateChannel": "Insiders",
     "workbench.colorCustomizations": {
-        "editor.background": "#262626",
+        "editor.background": "#1f1f1f",
         "editor.foreground": "#F8F8F8",
         "editorCursor.foreground": "#F43753",
         "editor.selectionBackground": "#1FB6DC63",
